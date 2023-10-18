@@ -4,6 +4,12 @@
     box-sizing: border-box;
     font-family: 'Croissant One', serif;
 }
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
 
 html{
     height: 100%;
@@ -13,10 +19,12 @@ body{
     width:100% ;
     background: linear-gradient(to bottom, #aaf6ff ,   pink);
     text-align: center;
-    background-repeat:no-repeat;
-    background-size:cover;
- }
-
+   
+    
+    }
+.title{
+    
+}
  .container {
     padding-top: 10%;
     
@@ -60,6 +68,9 @@ i{
     font-weight: bolder;
     font-size: 25px;
 }
+i:hover{
+    color: black;
+}
 .btn{
     display: flex;
     align-items: center;
@@ -67,7 +78,4 @@ i{
 }
 .About{
     margin-bottom: 20px;
-}
-.At{
-    margin-bottom:20px;
 }
