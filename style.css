@@ -17,7 +17,7 @@ html{
 body{
     height: 100%;
     width:100% ;
-    background: linear-gradient(to right, #aaf6ff ,   pink);
+    background: linear-gradient(to bottom, #aaf6ff ,   pink);
     text-align: center;
     background-size:cover;
     background-repeat:no-repeat;
