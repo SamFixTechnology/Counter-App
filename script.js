@@ -1,14 +1,20 @@
  let counter=document.getElementById("count-el")
  let saved=document.getElementById("saved")
  let increase=0
+ 
 
 function increment(){
     
-    increase=increase+1
+    increase++
     counter.innerHTML=increase
     
 }
 
+function decrement(){
+  increase--
+   counter.innerHTML=increase
+    
+}
 
 function  save() {
       let save=increase+" , "
@@ -18,7 +24,4 @@ function  save() {
     increase =0
 }
 
-function clear(){
-    let clear=increase+"--"
-    saved.textContent+=clear
-}
+
