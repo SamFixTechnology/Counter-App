@@ -19,12 +19,9 @@ body{
     width:100% ;
     background: linear-gradient(to bottom, #aaf6ff ,   pink);
     text-align: center;
-   
-    
-    }
-.title{
-    
-}
+    background-size:cover;
+ }
+
  .container {
     padding-top: 10%;
     
